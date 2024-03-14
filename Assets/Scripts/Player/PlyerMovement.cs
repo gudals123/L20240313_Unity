@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
 {
     //게임 오브젝트 내에 연결되어있는 Animator 컴포넌트를 가져와서 사용한다,
     protected Animator avatar;
+    protected PlayerAttack playerAttack;    //2024-03-14 플레이어 공격 기능 추가
+
     float h;
     float v;
 
@@ -29,8 +31,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         avatar = GetComponent<Animator>();
-
-
+        playerAttack = GetComponent<PlayerAttack>();
     }
     /// <summary>
     /// 방향 컨트롤러에서 컨트롤러의 변경이 일어날 경우 호출할 함수
@@ -97,6 +98,7 @@ public class PlayerMovement : MonoBehaviour
             while(attacking)
             {
                 avatar.SetTrigger("AttackStart");
+                playerAttack.NormalAttack();
                 yield return new WaitForSeconds(1.0f);
             }
         }
@@ -111,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
         {
             avatar.SetBool("Skill", true);
             lastSkillTime = Time.time;
+            playerAttack.SkillAttack();
         }
     }
     public void OnSkillUp()
@@ -128,6 +131,7 @@ public class PlayerMovement : MonoBehaviour
             lastDashTime = Time.time;
             dashing = true;
             avatar.SetTrigger("Dash");
+            playerAttack.DashAttack();
         }
     }
     public void OnDashUp()
