@@ -105,13 +105,12 @@ public class EnemyHealth : MonoBehaviour
     void Death()
     {
         isDead = true;
+        StageController.instance.AddPoint(10);
 
         transform.GetChild(0).GetComponent<BoxCollider>().isTrigger = true;
 
         //에니메이션 트리거 작동
-
         //죽을 때 사용할 클립으로 변경 후 오디오 실행
-
         StartSinking();
 
     }

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DelegateExample02" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scenes\DelegateExample02.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DellegateExample" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scenes\DellegateExample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSController" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAAAAAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scenes\DSController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputData" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAIIAAABgAwAEQAAABAAAABCAAgAQAiAAGAAAQABQ=</HashCode>
+      <FileName>Assets\Scenes\InputData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPExample" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scenes\OOPExample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PotionExample" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAEAAQAACA=</HashCode>
+      <FileName>Assets\Scenes\PotionExample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StageController" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAABAAAAAACAAAABAAAAAAAAAEAAAAEA=</HashCode>
+      <FileName>Assets\Scenes\StageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemySpawn" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAAAEAAAAAAAACAAAAAAAAAAAEAAI=</HashCode>
+      <FileName>Assets\Scripts\Controller\EnemySpawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FollowingCamera" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Controller\FollowingCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouchPad" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACgAiAAAAAAAIAAAAAAAAABAACBAAAAAAAAQAI=</HashCode>
+      <FileName>Assets\Scripts\Controller\TouchPad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogController" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialog\DialogController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogControllerAlert" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialog\DialogControllerAlert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogControllerConfirm" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialog\DialogControllerConfirm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogData" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialog\DialogData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogDataAlert" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialog\DialogDataAlert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogDataConfirm" Collapsed="true">
+    <Position X="2.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialog\DialogDataConfirm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogManager" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialog\DialogManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyAttack" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAACAAAAAkAAAAEAAAAIAAAIABQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\EnemyAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyHealth" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAAABAADEEEAwkAAAAhAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\EnemyHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyMove" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEE=</HashCode>
+      <FileName>Assets\Scripts\Enemy\EnemyMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Effect_Destroy" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\Effect_Destroy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NormalTarget" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Player\NormalTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAttack" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAABAAAAQBQEAAAAAAAABABAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHealth" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAIAAAAQABAABAEAAAggQAAgABAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQABACQAAAABAAACAAIEIkABEAgAQhAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlyerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkillTarget" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Player\SkillTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompleteProject.Effect" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\Effect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>
