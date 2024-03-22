@@ -19,7 +19,7 @@ public class StageController : MonoBehaviour
     {
         instance = this;
         //안내창 값 설정
-        var alert = new DialogDataAlert("게임 시작", "소환되는 슬라임들을 모두 처치하세요", delegate () { Debug.Log("OK를 눌렀습니다!"); });
+        DialogDataAlert alert = new DialogDataAlert("게임 시작", "소환되는 슬라임들을 모두 처치하세요", delegate () { Debug.Log("OK를 눌렀습니다!"); });
 
         //매니저에 등록
         DialogManager.Instance.Push(alert);
@@ -35,13 +35,22 @@ public class StageController : MonoBehaviour
     public void FinishGame()
     {
         //Application.LoadLevel(Application.loadedLevel);
-        SceneManager.LoadScene("Game");
+        DialogDataConfirm confirm = new DialogDataConfirm("재시작", "재시작 하시겠습니까?",
+        delegate (bool yn) 
+        {
+            if (yn)
+            {
+                SceneManager.LoadScene("Game");
+            }
+            else
+            {
+                Application.Quit();
+            }
+            
+        });
+
+        DialogManager.Instance.Push(confirm);
+      
 
     }
-
-
-
-
-
-
 }

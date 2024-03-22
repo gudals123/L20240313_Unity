@@ -128,6 +128,6 @@ public class EnemyHealth : MonoBehaviour
 
         isSinking = true;
 
-        Destroy(gameObject, 5.0f);
+        Destroy(gameObject, 2.0f);
     }
 }
